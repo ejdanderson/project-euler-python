@@ -13,7 +13,6 @@ def is_palindrome(num) :
 
 start = 10
 end = 999 
-# Odd to start (2, 212, 22222 etc...)
 highest = 0
 
 for x in range(start, end) :
@@ -29,7 +28,4 @@ for x in range(start, end) :
 		elif palindrome_low > highest and palindrome_low % three_digit == 0 and len(str(palindrome_low/three_digit)) == 3:
 			highest = palindrome_low
 
-print highest		
-
-	
-
+print highest
